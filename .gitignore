@@ -1,0 +1,23 @@
+# Xcelium and waveform output
+xcelium.d/
+INCA_libs/
+cov_work/
+*.shm/
+*.vcd
+*.history
+*.log
+*.key
+results/*
+!results/regression_100_seeds.csv
+
+# Genus outputs from a new run; reviewed prior reports are tracked separately
+synthesis/reports/
+genus.cmd*
+.st_launch*
+.pbs_*
+*.lib
+
+# Local editor and operating-system files
+.DS_Store
+.simvision/
+*.swp
